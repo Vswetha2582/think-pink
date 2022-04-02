@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/koil"
+    android:layout_height="match_parent"
+    tools:context=".Outputpage">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Think Pink"
+        android:textColor="#111111"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Name "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=":"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/textname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Age "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=":"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="25dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Condition "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=":"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textcondition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:text="Issues Faced "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=":"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:id="@+id/textissues"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Recommended Pink Noise Duration: "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textpink"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#0D47A1"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Recommended White Noise Duration: "
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#111"
+            android:textSize="20dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/textwhite"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textColor="#0D47A1"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:text="Go to map"
+        android:id="@+id/btnback"/>
+
+</LinearLayout>
